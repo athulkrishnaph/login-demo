@@ -121,7 +121,7 @@ input[type="text"]{
 @media(max-width:940px) {
     .crf{
         flex-wrap: wrap;
-        width: 53vw;
+        /* width: 53vw; */
     }
 }
 @media(max-width:425px){
