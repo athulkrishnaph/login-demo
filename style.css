@@ -123,8 +123,11 @@ input[type="text"]{
         flex-wrap: wrap;
         /* width: 53vw; */
     }
+    .textbox{
+        width: fit-content;
+    }
 }
-@media(max-width:425px){
+@media(max-width:500px){
     .container{
         display: flex;
         flex-direction: column-reverse;
@@ -142,5 +145,11 @@ input[type="text"]{
     }
     .btn2flex{
         gap: 1vw;
+    }
+    .login{
+        padding: 2%;
+    }
+    .textbox{
+        width: fit-content;
     }
 }
