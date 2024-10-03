@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* gap: 50px; */
+    background-color: rgb(0, 0, 0);
+    color: grey;
+    /* border: rgb(0, 0, 0) solid; */
+    /* border-radius: 2%; */
+
+}
+.login{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lines p{
+    padding: 0px 10px;
+}
+.lines div{
+    width: 50px;
+    height: 0px;
+    border:solid 1px grey;
+}
+.sideimg{
+    width: 50%;
+    height: 100%;
+    /* border-radius: 2%; */
+    overflow: hidden;
+    
+}
+h1{
+    margin-bottom: 5%;
+    font-family: "Poppins", sans-serif;
+
+}
+.textbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    display: block;
+    width: 30%;
+    height: 5%;
+    border: 1px solid grey;
+    color: grey;
+    background-color: black;
+
+}
+.crf{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    /* margin-left: 15%; */
+    margin-top: -1%;
+}
+.crf a{
+    /* padding-left: 30%; */
+    color: blue;
+}
+span{
+    color: rgba(128, 128, 128, 0.542);
+}
+.sideimg img{
+    
+    width: 100%;
+    height: 100%;
+   
+
+}
+#btn1{
+    margin-top: 3%;
+}
+input[type="text"]{
+    padding: 3px;
+    font-size: 10px;
+}#btn2 img{
+    width: 15px;
+}
+.btn2flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+.sideimg h1{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    display: none;
+}
+@media(max-width:940px) {
+    .crf{
+        flex-wrap: wrap;
+        width: 53vw;
+    }
+}
+@media(max-width:425px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .sideimg h1{
+        display: inline;
+    }
+    .login h1{
+        display: none;
+    }
+    button{
+        width: fit-content;
+        height: fit-content;
+    }
+    .btn2flex{
+        gap: 1vw;
+    }
+}
