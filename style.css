@@ -11,6 +11,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: grey;
+    /* position: relative; */
     
 }
 .container{
@@ -28,12 +29,12 @@ body{
 .login{
     width: 50%;
     height: 100%;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2%;
+    position: relative;
 }
 .lines{
     display: flex;
@@ -54,6 +55,8 @@ body{
     height: 100%;
     /* border-radius: 2%; */
     overflow: hidden;
+    /* position: relative; */
+    margin: 0%;
     
 }
 h1{
@@ -115,14 +118,34 @@ input[type="text"]{
 }
 .sideimg h1{
     position: absolute;
-    top: 50%;
-    right: 15%;
+    bottom: 54%;
+    /* left: 0%; */
+    /* padding-left: 22%; */
+    width: 100vw;
+    /* border: solid red; */
+    
+    display: none;
+}
+#language{
+    position: absolute;
+    top: 1%;
+    right: 3%;
+    width: 10%;
+    border: 1px solid grey;
+    color: grey;
+    background-color: black;
+}
+#sidelanguage{
+    position: absolute;
+    top: 1%;
+    right: 3%;
+    width: 15%;
+    border: 1px solid grey;
+    color: grey;
+    background-color: black;
     display: none;
 }
 @media(max-width:940px) {
-    body{
-        
-    }
     .crf{
     display: flex;
     flex-direction: column;
@@ -132,15 +155,30 @@ input[type="text"]{
     .textbox{
         width: fit-content;
     }
+    .sideimg{
+        /* border: solid red; */
+    }
 }
 @media(max-width:600px){
+    #language{
+        display: none;
+    }
+    #sidelanguage{
+        display: flex;
+    }
     .container{
         display: flex;
         flex-direction: column-reverse;
         
     }
+    .sideimg{
+        height: 50%;
+        width: 100vw;
+       
+    }
     .sideimg h1{
-        display: inline;
+        display: flex;
+        justify-content: center;
     }
     .login h1{
         display: none;
@@ -153,7 +191,9 @@ input[type="text"]{
         gap: 1vw;
     }
     .login{
-        padding: 2%;
+        padding-top: 5%;
+        gap: 3%;
+        width: 100%;
     }
     .textbox{
         width: fit-content;
@@ -164,5 +204,8 @@ input[type="text"]{
     span{
 
         font-size: 13px;
+    }
+    .crf a,label{
+        font-size: 12px;
     }
 }
