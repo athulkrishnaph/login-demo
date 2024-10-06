@@ -10,8 +10,6 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: grey;
-    /* position: relative; */
     
 }
 .container{
@@ -19,12 +17,9 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    /* gap: 50px; */
     background-color: rgb(0, 0, 0);
     color: grey;
-    /* border: rgb(0, 0, 0) solid; */
-    /* border-radius: 2%; */
-
+   
 }
 .login{
     width: 50%;
@@ -107,7 +102,12 @@ span{
 input[type="text"]{
     padding: 3px;
     font-size: 10px;
-}#btn2 img{
+}
+input[type="password"]{
+    padding: 3px;
+    font-size: 10px;
+}
+#btn2 img{
     width: 15px;
 }
 .btn2flex{
