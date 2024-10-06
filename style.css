@@ -82,12 +82,10 @@ button{
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    /* margin-left: 15%; */
     margin-top: -1%;
     
 }
 .crf a{
-    /* padding-left: 30%; */
     color: blue;
 }
 span{
@@ -97,8 +95,6 @@ span{
     
     width: 100%;
     height: 100%;
-   
-
 }
 #btn1{
     margin-top: 3%;
@@ -123,11 +119,7 @@ input[type="password"]{
 .sideimg h1{
     position: absolute;
     bottom: 54%;
-    /* left: 0%; */
-    /* padding-left: 22%; */
     width: 100vw;
-    /* border: solid red; */
-    
     display: none;
 }
 #language{
@@ -193,7 +185,6 @@ input[type="password"]{
     .login{
         padding-top: 5%;
         gap: 3%;
-        /* width: 100%; */
     }
     .textbox{
         width: fit-content;
