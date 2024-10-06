@@ -50,7 +50,7 @@ body{
     height: 100%;
     overflow: hidden;
     margin: 0%;
-    
+    position: relative;
 }
 h1{
     margin-bottom: 5%;
@@ -160,15 +160,14 @@ input[type="password"]{
     .container{
         display: flex;
         flex-direction: column-reverse;
-        
     }
     .sideimg{
-        /* height: 50%; */
         width: 100vw;
     }
     .sideimg h1{
         display: flex;
         justify-content: center;
+        bottom: 1%;
     }
     .login h1{
         display: none;
@@ -181,6 +180,7 @@ input[type="password"]{
         gap: 1vw;
     }
     .login{
+        margin-top: -15%;
         padding-top: 5%;
         gap: 3%;
     }
