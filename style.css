@@ -159,9 +159,6 @@ input[type="password"]{
     .textbox{
         width: fit-content;
     }
-    .sideimg{
-        /* border: solid red; */
-    }
 }
 @media(max-width:600px){
     #language{
@@ -196,7 +193,7 @@ input[type="password"]{
     .login{
         padding-top: 5%;
         gap: 3%;
-        width: 100%;
+        /* width: 100%; */
     }
     .textbox{
         width: fit-content;
