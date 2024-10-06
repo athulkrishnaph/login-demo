@@ -48,9 +48,7 @@ body{
 .sideimg{
     width: 50%;
     height: 100%;
-    /* border-radius: 2%; */
     overflow: hidden;
-    /* position: relative; */
     margin: 0%;
     
 }
@@ -165,7 +163,7 @@ input[type="password"]{
         
     }
     .sideimg{
-        height: 50%;
+        /* height: 50%; */
         width: 100vw;
     }
     .sideimg h1{
