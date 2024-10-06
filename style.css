@@ -183,6 +183,7 @@ input[type="password"]{
         margin-top: -15%;
         padding-top: 5%;
         gap: 3%;
+        width: 100%;
     }
     .textbox{
         width: fit-content;
